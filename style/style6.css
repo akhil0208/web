@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto+Condensed&display=swap');
+
+
+*{
+    margin: 0;   
+    padding: 0;
+   }
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}
+nav p{
+    font-family: Poppins,sans-serif;
+    color: white;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+nav ul{
+    float: left;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+
+}
+
+nav ul li a{
+    font-family: Poppins,sans-serif;
+    color: white;
+    font-size: 14px;
+    padding: 22px 14px;
+    display:block;
+    text-decoration: none;
+}
+nav ul li ul{
+ display: none;
+ position: absolute;
+ background-color: black;
+ margin-bottom: 20px;
+ padding: 10px;
+ border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+    display: block;
+    
+   }
+nav ul li ul li{
+ width: 180px;
+ border-radius: 4px;
+}
+nav ul li ul li a:hover{
+    background-color: #1a1a1a;
+    
+ }
+ nav ul li:hover{
+     background-color:#1a1a1a;
+ }
+
+ footer{
+     border-top: 3px solid rgb(179, 177, 177);
+     background-color: gray;
+     width: 100%;
+     height: 230px;
+     margin-top: 1600px;
+ 
+ }
+ footer h3{
+     margin-left: 30px;
+     font-family: montserrat, sans-serif;
+ }
+ footer .social-media a{
+     color: rgb(212, 211, 211);
+     font-family: montserrat;
+     list-style: none;
+     margin-left: 24px;
+     padding: 10px;
+     font-size: 20px;
+ }
+ .social-media{
+     width: 150px;
+     position: absolute;
+     margin-left: 100px;
+ }
+ .social-media ul{
+     list-style: none;   
+ }
+ .contact {
+     position: absolute;
+     margin-left: 400px;
+     margin-bottom: 200px;
+     padding-bottom: 30px;
+ }
+ .contact h3,h4{
+     padding-bottom: 5px;
+     font-family: montserrat;
+ }
+ .adress{
+     margin-left: 700px;
+    
+ }
+ .adress h3,h4{
+    padding-bottom: 10px;
+    font-family: montserrat;
+ }
+ .trademark{
+     margin-top: 60px;
+     margin-left: 100px;
+     font-family: poppins, sans-serif;
+ }
+ .title {
+     text-align: center;
+     font-family: poppins, sans-serif;
+     color: white;
+     
+ }
+ body{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='112' height='92' viewBox='0 0 112 92'%3E%3Cg fill='%23767676' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M72 10H40L16 20H0v8h16l24-14h32l24 14h16v-8H96L72 10zm0-8H40L16 4H0v8h16l24-6h32l24 6h16V4H96L72 2zm0 84H40l-24-6H0v8h16l24 2h32l24-2h16v-8H96l-24 6zm0-8H40L16 64H0v8h16l24 10h32l24-10h16v-8H96L72 78zm0-12H40L16 56H0v4h16l24 14h32l24-14h16v-4H96L72 66zm0-16H40l-24-2H0v4h16l24 6h32l24-6h16v-4H96l-24 2zm0-16H40l-24 6H0v4h16l24-2h32l24 2h16v-4H96l-24-6zm0-16H40L16 32H0v4h16l24-10h32l24 10h16v-4H96L72 18z'/%3E%3C/g%3E%3C/svg%3E");
+
+ }
+ .resources{
+     position: relative;
+ }
+ .r1{
+     width: 300px;
+     color: white;
+     background-color: rgb(138, 138, 138);
+     padding: 10px;
+     font-family: montserrat, sans-serif;
+     position: absolute;
+     margin-left: 30px;
+ }
+ .r2{
+    width: 300px;
+    color: white;
+    background-color: rgb(138, 138, 138);
+    padding: 10px;
+    font-family: montserrat, sans-serif;
+    position: absolute;
+    margin-left: 490px;
+}
+.r3{
+    width: 300px;
+    color: white;
+    background-color: rgb(138, 138, 138);
+    padding: 10px;
+    font-family: montserrat, sans-serif;
+    position: absolute;
+    margin-left: 900px;
+    
+}
+.r4{
+    width: 300px;
+    color: white;
+    background-color: rgb(138, 138, 138);
+    padding: 10px;
+    font-family: montserrat, sans-serif;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 700px;
+}

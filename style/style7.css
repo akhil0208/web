@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto+Condensed&display=swap');
+
+
+*{
+    margin: 0;   
+    padding: 0;
+   }
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}
+nav p{
+    font-family: Poppins,sans-serif;
+    color: white;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+nav ul{
+    float: left;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+
+}
+
+nav ul li a{
+    font-family: Poppins,sans-serif;
+    color: white;
+    font-size: 14px;
+    padding: 22px 14px;
+    display:block;
+    text-decoration: none;
+}
+nav ul li ul{
+ display: none;
+ position: absolute;
+ background-color: black;
+ margin-bottom: 20px;
+ padding: 10px;
+ border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+    display: block;
+    
+   }
+nav ul li ul li{
+ width: 180px;
+ border-radius: 4px;
+}
+nav ul li ul li a:hover{
+    background-color: #1a1a1a;
+    
+ }
+ nav ul li:hover{
+     background-color:#1a1a1a;
+ }
+
+ footer{
+     border-top: 3px solid rgb(179, 177, 177);
+     background-color: gray;
+     width: 100%;
+     height: 250px;
+     margin-top: 500px;
+ 
+ }
+ footer h3{
+     margin-left: 30px;
+     font-family: montserrat, sans-serif;
+ }
+ footer .social-media a{
+     color: rgb(212, 211, 211);
+     font-family: montserrat;
+     list-style: none;
+     margin-left: 24px;
+     padding: 10px;
+     font-size: 20px;
+ }
+ .social-media{
+     width: 150px;
+     position: absolute;
+     margin-left: 100px;
+ }
+ .social-media ul{
+     list-style: none;   
+ }
+ .contact {
+     position: absolute;
+     margin-left: 400px;
+     margin-bottom: 200px;
+     padding-bottom: 30px;
+ }
+ .contact h3,h4{
+     padding-bottom: 5px;
+     font-family: montserrat;
+ }
+ .adress{
+     margin-left: 700px;
+    
+ }
+ .adress h3,h4{
+    padding-bottom: 10px;
+    font-family: montserrat;
+ }
+ .trademark{
+     margin-top: 60px;
+     margin-left: 100px;
+     font-family: poppins, sans-serif;
+ }
+ body{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='42' height='58' viewBox='0 0 42 58'%3E%3Cg fill='%23767676' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M12 18h12v18h6v4H18V22h-6v-4zm-6-2v-4H0V0h36v6h6v36h-6v4h6v12H6v-6H0V16h6zM34 2H2v8h24v24h8V2zM6 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM2 50h32v-8H10V18H2v32zm28-6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4z'/%3E%3C/g%3E%3C/svg%3E");
+ }
+ h1{
+     color:#ffffff;
+     text-align: center;
+ }
+ .con{
+     color:white;
+     font-family: montserrat, sans-serif;
+     padding: 30px;
+ }
